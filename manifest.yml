@@ -1,0 +1,10 @@
+---
+applications:
+- path: target/SimpleHTTPServlet.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: simple-http-servlet-test
+  host: simple-http-servlet-test
+  disk_quota: 512M
+  buildpack: liberty-for-java
