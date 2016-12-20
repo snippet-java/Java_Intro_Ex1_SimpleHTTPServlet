@@ -23,7 +23,7 @@ public class SimpleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		out.println("<HTML><TITLE>DEMO -SimpleHttpServlet</TITLE><BODY>");
+		out.println("<HTML><TITLE>TEST -SimpleHttpServlet</TITLE><BODY>");
 		out.println("<H2>Servlet API Example - SimpleHttpServlet</H2><HR>");
 		out.println("<H4>This is about as simple a servlet as it gets!</H4>");
 		out.println("</BODY><HTML>");
